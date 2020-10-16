@@ -17,7 +17,7 @@ namespace ProductService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Product101", "Product102", "Product103", "Product104" };
+            return new string[] { "Product101", "Product102", "Product103", "ProductFromCICD" };
         }
 
         [HttpGet]

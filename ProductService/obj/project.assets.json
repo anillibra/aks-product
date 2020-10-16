@@ -12606,11 +12606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kubernetes\\Practice\\EcommProduct_v2\\AKS\\Backend-Services\\Product\\ProductService\\ProductService\\ProductService.csproj",
+      "projectUniqueName": "D:\\Azure\\AKS\\EcommProduct\\gitsc\\productapi\\aks-product\\ProductService\\ProductService.csproj",
       "projectName": "ProductService",
-      "projectPath": "D:\\Kubernetes\\Practice\\EcommProduct_v2\\AKS\\Backend-Services\\Product\\ProductService\\ProductService\\ProductService.csproj",
+      "projectPath": "D:\\Azure\\AKS\\EcommProduct\\gitsc\\productapi\\aks-product\\ProductService\\ProductService.csproj",
       "packagesPath": "C:\\Users\\Anil\\.nuget\\packages\\",
-      "outputPath": "D:\\Kubernetes\\Practice\\EcommProduct_v2\\AKS\\Backend-Services\\Product\\ProductService\\ProductService\\obj\\",
+      "outputPath": "D:\\Azure\\AKS\\EcommProduct\\gitsc\\productapi\\aks-product\\ProductService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

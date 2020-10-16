@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CnCGa9M6m7ZFZhi1abMqCAqGqf/ik+StIq2Ip4sNwCnDzY1HwKDLtLGUkv8XENnseCw/KJkKnV0pLbhImJ/l7g==",
+  "dgSpecHash": "wdmLKIoJcICCI5rIJDKlAUqE69xi62spbGAlvC5Pw9UJgt+4NirFDoYjfv6x14e0VNBMXpmXNZigww5JcM7m3Q==",
   "success": true,
-  "projectFilePath": "D:\\Kubernetes\\Practice\\EcommProduct_v2\\AKS\\Backend-Services\\Product\\ProductService\\ProductService\\ProductService.csproj",
+  "projectFilePath": "D:\\Azure\\AKS\\EcommProduct\\gitsc\\productapi\\aks-product\\ProductService\\ProductService.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
