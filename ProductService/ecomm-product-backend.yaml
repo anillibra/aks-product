@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecomm-backend-product-service
+  labels:
+    app: ecomm-backend-product-service
+spec:
+  selector:
+    matchLabels:
+      app: ecomm-backend-product-service
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ecomm-backend-product-service
+    spec:
+      containers:
+      - name: ecomm-backend-product-service
+        image: ecommdev.azurecr.io/aks.backend.products.api:v1 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80 # the application listens to this port
+        resources:
+            requests: # minimum resources required
+              cpu: 20m
+              memory: 20Mi
+            limits: # maximum resources allocated
+              cpu: 100m
+              memory: 100Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ecomm-backend-product-service
+  labels:
+    app: ecomm-backend-product-service
+spec:
+  ports:
+  - name: http
+    port: 8484
+    targetPort: 80
+    protocol: TCP
+  selector:
+    app: ecomm-backend-product-service
+  type: ClusterIP
